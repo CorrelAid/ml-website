@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<!--
+	Retrospect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>ML4Good Challenges</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">ML4Good</a></h1>
+				<a href="#nav">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Generic</h2>
+						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+					</header>
+
+					<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+					
+                                    
+<title>Introduction_ML</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="data:text/css;charset=utf-8,%2Ehljs%2Dliteral%20%7B%0Acolor%3A%20%23990073%3B%0A%7D%0A%2Ehljs%2Dnumber%20%7B%0Acolor%3A%20%23099%3B%0A%7D%0A%2Ehljs%2Dcomment%20%7B%0Acolor%3A%20%23998%3B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%2Ehljs%2Dkeyword%20%7B%0Acolor%3A%20%23900%3B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0A%2Ehljs%2Dstring%20%7B%0Acolor%3A%20%23d14%3B%0A%7D%0A" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+<body>
+
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+<div id="what-is-machine-learning" class="section level2">
+<h2>What is Machine Learning?</h2>
+<p>Machine Learning is a broad field that brings together very different techniques and objectives. In our Machine Learning Challenges you will encounter different problems. However, they all share the same approach: Building a <strong>Classifier</strong> using <strong>Supervised Machine Learning</strong>.</p>
+<p>In <strong>Classification</strong> the outcome variable is categorical. We are trying to predict for example “<em>peace agreement fails</em> vs. <em>peace agreement holds</em>” or “<em>person donates blood again</em> vs. <em>person will not donate blood again</em>”. The alternative is “Regression” which we use when the outcome variable is metric.</p>
+<p><strong>Supervised Machine Learning</strong> means that we know the categories of observations from the start. In our example we know that there are two types of peace agreements (those who failed and didn’t). The alternative is called unsupervised learning where we let the algorithm define the groups in the data itself.</p>
+<p>For a quick overview over different types of Machine Learning read this:</p>
+<p><a href="https://medium.com/deep-math-machine-learning-ai/different-types-of-machine-learning-and-their-types-34760b9128a2" class="uri">https://medium.com/deep-math-machine-learning-ai/different-types-of-machine-learning-and-their-types-34760b9128a2</a></p>
+<p><a href="https://www.kdnuggets.com/2017/11/3-different-types-machine-learning.html" class="uri">https://www.kdnuggets.com/2017/11/3-different-types-machine-learning.html</a></p>
+</div>
+<div id="key-terminology" class="section level2">
+<h2>Key Terminology</h2>
+<p>When reading about ML approaches it is important to know a few key terms. In the following we only list the absolute fundamentals.</p>
+<ul>
+<li><strong>Label</strong>: This is the variable we want to predict. In classification the label marks to which category an observation belongs to. In the social sciences this variable would be called the “dependent variable”.</li>
+<li><strong>Feature</strong>: Features are all the variables we have to model the variance in our outcome. In the social sciences features would be called “independent variables”.</li>
+<li><strong>Model</strong>: Our model is a function between the features and the outcome. The goal is to create a model that can look at new observations and then give them the correct label (aka. classifying them correctly).There are different kind of models that are used in supervised machine learning. They range from logistic regression to deep neural networks. For an overview of different models and approaches look at: <a href="https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/" class="uri">https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/</a></li>
+<li><strong>loss function</strong>: When we build a model we can quantify how well the model classifies the observations. This is important so that we can actually find “the best model”. The loss function is very similiar to the concept of log-likelihood as used in the social sciences.</li>
+<li><strong>Learning</strong>: The “learning” part in Machine Learning means that we use an algorithm to find the best model. The alorithm does so by minimizing the loss function. The most common algorithm is called “gradient descent” (<a href="https://hackernoon.com/gradient-descent-aynk-7cbe95a778da" class="uri">https://hackernoon.com/gradient-descent-aynk-7cbe95a778da</a>).</li>
+<li><strong>Training dataset</strong>: To build our model we use the so called training dataset. The traning data contains all features as well as the labels.</li>
+<li><strong>Test dataset</strong>: Normally we want to assess the performance of our model not on the same data that we trained it on. Therefore we create a subset of the data that is only used for evaluating the model. If you’re interested in why we don’t evaluate our model with the data we trained it on, read this article on <em>overfitting</em> (<a href="https://elitedatascience.com/overfitting-in-machine-learning" class="uri">https://elitedatascience.com/overfitting-in-machine-learning</a>)</li>
+</ul>
+<p>For an exhasutive list look at this Glossary: <a href="https://developers.google.com/machine-learning/glossary/" class="uri">https://developers.google.com/machine-learning/glossary/</a></p>
+</div>
+<div id="workflow" class="section level2">
+<h2>Workflow</h2>
+<p>Now that we know the key terminology we can start building our first model. The workflow for building ML classifiers always follows the same basic workflow:</p>
+<div id="loading-the-data-and-dependencies" class="section level3">
+<h3>1. Loading the data and dependencies</h3>
+<p>For a basic setup I load <em>readxl</em> to load the data, <em>ggplot2</em> for exploratory data analysis, and <em>caret</em> for the machine learning part. <em>caret</em> is a very powerful package in R in which all the major ML algorithms and models are already implemented.</p>
+<pre class="r"><code>library(caret)
+library(ggplot2)
+
+#download the peace_train.csv file from Kaggle
+data &lt;- read.csv(&quot;peace_train.csv&quot;)
+head(data, 4)</code></pre>
+<pre><code>##   X ended cease Intarmy DDR Withd Mil_prov pp Intgov Intciv Elections
+## 1 1     0     1       0   1     0        1  0      0      0         1
+## 2 2     0     1       0   0     0        1  0      0      0         0
+## 3 3     0     1       0   0     0        1  0      0      0         0
+## 4 4     0     0       0   1     0        1  0      0      0         0
+##   Interrim Natalks Shagov Pol_prov Aut Fed Ind Ref Shaloc Regdev Cul
+## 1        0       0      0        1   0   0   1   0      0      0   0
+## 2        0       0      0        0   0   0   0   0      0      0   0
+## 3        1       0      0        1   1   0   0   0      0      1   0
+## 4        0       0      0        0   1   0   0   1      0      0   1
+##   Demarcation Locgov Terr_prov Amn pris Recon Return Justice_prov Id
+## 1           0      0         1   0    1     0      1            1  2
+## 2           0      0         0   0    1     0      0            1  3
+## 3           0      0         1   1    0     0      1            1  4
+## 4           0      0         1   0    1     1      0            1  5</code></pre>
+<p>If we take a look at the data we see the label <em>ended</em> as well as all the features.</p>
+</div>
+<div id="explore-the-data" class="section level3">
+<h3>2. Explore the data</h3>
+<p>In the next step we usually get to know the data a bit better. We look at the distribution of the outcome variable as well as the different features. Questions that you might be interested are:</p>
+<ul>
+<li>How many features do we have?</li>
+<li>How are they scaled?</li>
+<li>Do features correlate with each other?</li>
+</ul>
+<p>At this point it might be necessary to pre-process the data. If you’re interested in different ways to do so check out: <a href="https://machinelearningmastery.com/pre-process-your-dataset-in-r/" class="uri">https://machinelearningmastery.com/pre-process-your-dataset-in-r/</a></p>
+<p>For this quick runthrough we will just delete the unnecessary “Id” variable.</p>
+<pre class="r"><code>data$Id &lt;- NULL
+data$X &lt;- NULL</code></pre>
+</div>
+<div id="split-into-training-and-test-dataset" class="section level3">
+<h3>3. Split into training and test dataset</h3>
+<p>No that we have loaded the data we will split it into training and test dataset. We will use the <em>createDataPartition</em> function from the caret package. It has two important arguments: the outcome variable (which will ensure that the distribution of outcome will be similiar in both groups) and <em>p</em>, what proportion of the data should go into the training dataset.</p>
+<pre class="r"><code>Index &lt;- createDataPartition(data$ended, p=0.80, list=FALSE)
+data_train &lt;- data[Index,] # delete ID var
+data_test &lt;- data[-Index,] # delete ID var</code></pre>
+</div>
+<div id="train-the-model" class="section level3">
+<h3>4. Train the model</h3>
+<p>Now it is time to train the model. We use the <em>train</em> function. It takes a <em>forumla</em> as the first argument. This works very similar to specifying a regression in R. With the <strong>.</strong> we specify that we use all available features in the dataset (alternatively you can specify them as you would in a regression <em>y~x1+ x2 + x3+…</em>).</p>
+<p>With the method argument you specify which model you want to use. In this case I am using a simple logistic regression (Spoiler-alert: not the best model for this case). There are dozens of models you can specify here. For an overview look at: <a href="https://rdrr.io/cran/caret/man/models.html" class="uri">https://rdrr.io/cran/caret/man/models.html</a>. Lastly, we specify which metric we use for optimisation. The default value is “Accuracy” but have a look at other options here: <a href="https://topepo.github.io/caret/model-training-and-tuning.html#metrics" class="uri">https://topepo.github.io/caret/model-training-and-tuning.html#metrics</a> .</p>
+<p>As we are just using a log. regression here we can also call the summary function to see the individual coefficients for each feature.</p>
+<pre class="r"><code># train the model
+fit.glm &lt;- train(as.factor(ended) ~ .,
+                 data=data_train, method=&quot;glm&quot;, metric=&quot;Accuracy&quot;)
+
+summary(fit.glm)</code></pre>
+<pre><code>## 
+## Call:
+## NULL
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -2.1628  -0.8242  -0.4600   0.9274   2.3563  
+## 
+## Coefficients:
+##               Estimate Std. Error z value Pr(&gt;|z|)  
+## (Intercept)   -0.80603    0.46915  -1.718   0.0858 .
+## cease          0.62240    0.78696   0.791   0.4290  
+## Intarmy        0.44727    0.70283   0.636   0.5245  
+## DDR            0.82815    0.54856   1.510   0.1311  
+## Withd          0.31282    0.70388   0.444   0.6567  
+## Mil_prov      -0.72152    0.87052  -0.829   0.4072  
+## pp            -0.29001    0.82387  -0.352   0.7248  
+## Intgov        -1.55833    0.89172  -1.748   0.0805 .
+## Intciv        -0.62661    1.09397  -0.573   0.5668  
+## Elections     -0.95176    0.68648  -1.386   0.1656  
+## Interrim      -0.57168    0.66939  -0.854   0.3931  
+## Natalks        1.16089    0.90050   1.289   0.1973  
+## Shagov         1.37515    1.06982   1.285   0.1987  
+## Pol_prov       0.39061    0.75111   0.520   0.6030  
+## Aut            0.51265    1.45347   0.353   0.7243  
+## Fed            0.79305    1.78812   0.444   0.6574  
+## Ind            3.00529    2.19247   1.371   0.1705  
+## Ref          -14.61755  929.63295  -0.016   0.9875  
+## Shaloc        -0.70304    1.98278  -0.355   0.7229  
+## Regdev         3.32325    1.45536   2.283   0.0224 *
+## Cul           -1.92025    1.48317  -1.295   0.1954  
+## Demarcation    1.95946    1.62967   1.202   0.2292  
+## Locgov        -0.82032    1.46795  -0.559   0.5763  
+## Terr_prov     -0.53213    1.51839  -0.350   0.7260  
+## Amn            0.86014    0.71690   1.200   0.2302  
+## pris          -0.07052    0.63185  -0.112   0.9111  
+## Recon          0.87864    0.72348   1.214   0.2246  
+## Return        -1.03281    0.69384  -1.489   0.1366  
+## Justice_prov  -0.47402    0.76474  -0.620   0.5354  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 185.01  on 147  degrees of freedom
+## Residual deviance: 147.51  on 119  degrees of freedom
+## AIC: 205.51
+## 
+## Number of Fisher Scoring iterations: 15</code></pre>
+</div>
+<div id="evaluation" class="section level3">
+<h3>5. Evaluation</h3>
+<p>After we trained our model it is time to evaluate how well it predicts new cases. Therefore we predict the labels for our test dataset and construct a confusion matrix which shows how the predictions fair against the true labels. One obvious metric we are interested in is the “accuracy”. A guide to the other metrics can be found here: <a href="https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/" class="uri">https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/</a></p>
+<pre class="r"><code>predictions &lt;- predict(fit.glm, newdata = data_test)
+confusionMatrix(predictions, data_test$ended)</code></pre>
+<pre><code>## Confusion Matrix and Statistics
+## 
+##           Reference
+## Prediction  0  1
+##          0 13 15
+##          1  3  5
+##                                           
+##                Accuracy : 0.5             
+##                  95% CI : (0.3292, 0.6708)
+##     No Information Rate : 0.5556          
+##     P-Value [Acc &gt; NIR] : 0.799492        
+##                                           
+##                   Kappa : 0.0581          
+##  Mcnemar's Test P-Value : 0.009522        
+##                                           
+##             Sensitivity : 0.8125          
+##             Specificity : 0.2500          
+##          Pos Pred Value : 0.4643          
+##          Neg Pred Value : 0.6250          
+##              Prevalence : 0.4444          
+##          Detection Rate : 0.3611          
+##    Detection Prevalence : 0.7778          
+##       Balanced Accuracy : 0.5312          
+##                                           
+##        'Positive' Class : 0               
+## </code></pre>
+</div>
+<div id="uploading-your-solution-to-kaggle" class="section level3">
+<h3>6. Uploading your solution to Kaggle</h3>
+<p>Now that you have build a (hopefully) great model you can upload it to Kaggle and see how well your model compares to others.</p>
+<p>To do so you have to download the evaluation dataset from Kaggle called “peace_eval_features.csv”. In this dataset only the features are given. For submission you have to calculate the predicted probabilities and upload them with their ID.</p>
+<pre class="r"><code>peace_eval &lt;- read.csv(&quot;peace_eval_features.csv&quot;)
+predicted_probabilities &lt;- predict(fit.glm, newdata = peace_eval[,1:28], type = &quot;prob&quot;)[2]
+
+submission &lt;- as.data.frame(cbind(peace_eval$Id,
+                                  predicted_probabilities))
+names(submission) &lt;- c(&quot;Id&quot;, &quot;prob&quot;)
+# write.csv(submission, file = &quot;submission.csv&quot;,row.names = F)</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a></li>
+						<li><a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a></li>
+						<li><a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a></li>
+						<li><a href="#" class="icon fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled.</li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a>.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a>.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
